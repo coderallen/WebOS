@@ -1,0 +1,1075 @@
+
+<!-- /*重置样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+	width: 55px;
+	height: 55px;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,ul,li {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,q:after {
+	content: ”;
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+/*页面基础样式*/
+html {
+	overflow: hidden;
+}
+
+body {
+	font-size: 12px;
+	background: #06C repeat scroll center center;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 0;
+	padding: 0
+}
+
+a {
+	font-size: 12px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.corner { /*只在支持css3的高级浏览器起作用*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 8px #444;
+	-webkit-box-shadow: 2px 2px 8px #444;
+	box-shadow: 2px 2px 8px #444;
+}
+
+.loading {
+	background: url(../images/loading.gif) no-repeat center center
+}
+/*界面布局样式*/
+.powered_by {
+	width: 160px;
+	height: 25px;
+	line-height: 25px;
+	background: url(../images/powered-by.png) no-repeat left center;
+	color: #CCC;
+	text-indent: 26px;
+	display: block;
+	outline: none;
+	position: absolute;
+	right: 20px;
+	bottom: 60px;
+}
+
+
+
+.tools_div_over{
+	background:url(../images/tools_close_btn.png) no-repeat right top;
+}
+
+/*任务栏样式*/
+.taskBar {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.leftBtn {
+	width: 100px;
+	height: 40px;
+	float: left;
+	display: none;
+}
+
+.rightBtn {
+	width: 100px;
+	height: 40px;
+	float: right;
+	display: none;
+}
+
+.leftBtn a,.rightBtn a {
+	display: block;
+	width: 100px;
+	height: 40px;
+	outline: none;
+	background-image: url(../images/lr_btn.png);
+	background-repeat: no-repeat;
+}
+
+.leftBtn a {
+	background-position: left top;
+}
+
+.rightBtn a {
+	background-position: right top;
+}
+
+.leftBtn a:hover {
+	background-position: left bottom
+}
+
+.rightBtn a:hover {
+	background-position: right bottom
+}
+
+.task_lb_wrap {
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	position: relative;
+}
+
+.task_lb {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.task_lb a {
+	display: inline-block;
+	outline: none;
+	width: 100px;
+	height: 40px;
+	background-image: url(../images/taskHdBtn.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 40px;
+	float: right
+}
+
+.task_lb .defaultTab {
+	background-position: right top;
+	color: #ccc
+}
+
+.task_lb .defaultTab:hover {
+	background-position: right bottom;
+}
+
+.task_lb .selectTab {
+	background-position: left top;
+	color: #FFF
+}
+
+.task_lb .selectTab:hover {
+	background-position: left bottom
+}
+
+.showZm_btn {
+	background: url(../images/add_app1.png) no-repeat center center
+}
+.showZm_btn:hover {
+	background: url(../images/add_app2.png) no-repeat center center
+}
+
+.shizhong_btn {
+	background: url(../images/clock1.png) no-repeat center center
+}
+.shizhong_btn:hover {
+	background: url(../images/clock2.png) no-repeat center center
+}
+
+
+.tools_btn {
+	background: url(../images/toolsMg1.png) no-repeat center center
+}
+
+
+.tools_btn:hover {
+	background: url(../images/toolsMg2.png) no-repeat center center
+}
+
+.theme_btn {
+	background: url(../images/theme1.png) no-repeat center center
+}
+.theme_btn:hover {
+	background: url(../images/theme2.png) no-repeat center center
+}
+
+/*侧边浮动栏*/
+.lr_bar {
+	width: 65px;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	z-index:90;
+	background: url(../images/theme/blue/dock_top.png) repeat-y left top;
+	-moz-box-shadow: 0px 3px 15px #444;
+	-webkit-box-shadow: 0px 3px 15px #444;
+	box-shadow: 0px 3px 15px #444;
+	padding-top: 5px;
+}
+
+/*侧边浮动栏*/
+.lr_bar_right {
+	width: 65px;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 30px;
+	background: url(../images/theme/blue/dock_top.png) repeat-y left top;
+	z-index: 90;
+	-moz-box-shadow: 0px 3px 15px #444;
+	-webkit-box-shadow: 0px 3px 15px #444;
+	box-shadow: 0px 3px 15px #444;
+	padding-top: 5px;
+}
+
+/*开始按钮样式*/
+.start_block {
+	width: 65px;
+	height: 56px;
+	position: absolute;
+	left: 0;
+	bottom: -56px;
+	background: url(../images/theme/blue/dock_b.png) no-repeat left bottom;
+	-moz-box-shadow: 0px 5px 15px #444;
+	-webkit-box-shadow: 0px 5px 15px #444;
+	box-shadow: 0px 5px 15px #444;
+}
+
+.start_btn {
+	display: block;
+	width: 48px;
+	height: 48px;
+	background: url(../images/start-btn.png) no-repeat center bottom;
+	margin: 4px auto 0 auto;
+	outline: none;
+	z-index: 501;
+	cursor: pointer;
+}
+
+.start_btn:hover {
+	background-position: center top
+}
+/*开始菜单样式*/
+.start_item {
+	width: 180px;
+	height: auto;
+	padding: 5px 0;
+	background: url(../images/start_item_bg.png) repeat;
+	position: absolute;
+	z-index:100;
+	left: 75px;
+	bottom: 0px;
+	display: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 5px #444;
+	-webkit-box-shadow: 2px 2px 5px #444;
+	box-shadow: 2px 2px 5px #444;
+}
+
+.start_item .item {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #999
+	z-index: 100;
+}
+
+.start_item .item li {
+	width: 98%;
+	height: 24px;
+	overflow: hidden;
+	zoom: -1;
+	padding: 6px 0;
+	line-height: 24px;
+	margin: 0 auto;
+	color: #FFF;
+}
+
+.start_item .item li:hover {
+	background: url(../images/start_item_over.png) repeat-x left bottom;
+	cursor: pointer
+}
+
+.start_item .item li span {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/start_itembtn.png);
+	background-repeat: no-repeat;
+	margin: 0 10px;
+	float: left;
+}
+
+.start_item .item li b {
+	width: 10px;
+	height: 24px;
+	background: url(../images/item-child.png) no-repeat center center;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.start_item .sitting_btn {
+	background-position: left -140px;
+}
+
+.start_item .help_btn {
+	background-position: left -44px;
+}
+
+.start_item .about_btn {
+	background-position: left -164px;
+}
+
+.start_item .logout_btn {
+	background-position: left -20px;
+}
+
+.start_item .admin {
+	border-bottom: 1px solid #444;
+	padding: 5px 0;
+	border-top: none;
+}
+
+.start_item .item li .adminImg {
+	border: 1px solid #E0E0E0;
+	background-position: left -92px;
+	background-color: #FFF;
+}
+/*默认小工具*/
+.default_tools {
+	width: 65px;
+	height: auto;
+	overflow: hidden;
+	zoom: -1;
+	padding: 5px 0;
+	border-top: 1px solid #555;
+	margin: 0 auto;
+}
+
+.default_tools span {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 0 0 1px;
+	cursor: pointer;
+	float: left;
+}
+/*默认应用程序height:auto;*/
+.default_app {
+	width: 65px;
+	height: 400px;
+	padding: 5px 0;
+	position: relative;
+	z-index: 90;
+}
+
+.default_app li {
+	width: 48px;
+	height: 48px;
+	overflow: hidden;
+	margin: 3px auto;
+	padding: 6px;
+	z-index: 99;
+}
+
+.default_app li:hover {
+	background: url(../images/default_appbtn_bg.png) no-repeat center center
+}
+
+.default_app li img {
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+}
+
+/*重写右键菜单样式*/
+.smart_menu_box .smart_menu_a {
+	color: #333
+}
+
+.smart_menu_box .smart_menu_li_separate {
+	border-bottom: 1px solid #d6d5d5;
+}
+/*窗口样式*/
+.windows {
+	min-width: 240px;
+	min-height: 200px;
+	width: 700px;
+	height: 560px;
+	position: absolute;
+	display: none;
+	background-color: #FFFFFF;
+}
+
+.win_title {
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	background: #E0E0E0 url(../images/theme/blue/titlebar_bg_cur.png) repeat-x left
+		center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(../css/border-radius.htc);
+	position: relative;
+}
+
+.win_title b {
+	color: #333;
+	margin-left: 10px;
+}
+
+.win_title .win_btnblock {
+	width: auto;
+	padding: 0 5px;
+	float: right;
+	height: 17px;
+	margin: 4px 3px 0 0;
+}
+
+.win_title .win_btnblock a {
+	display: inline-block;
+	width: 26px;
+	height: 17px;
+	background-image: url(../images/windowBtn.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0 1px;
+	outline: none;
+}
+
+.winMaximize {
+	background-position: right bottom;
+}
+
+.winMaximize:hover {
+	background-position: right top;
+}
+
+.winHyimize {
+	background-position: -26px bottom;
+}
+
+.winHyimize:hover {
+	background-position: -26px top;
+}
+
+.winClose {
+	background-position: -52px top;
+}
+
+.winClose:hover {
+	background-position: -52px bottom;
+}
+
+.winMinimize {
+	background-position: left bottom;
+}
+
+.winMinimize:hover {
+	background-position: left top;
+}
+
+.winframe {
+	width: 100%;
+	height: auto;
+	margin: 0 0 0 3px;
+	padding: 0
+}
+/*桌面图标*/
+.deskIcon {
+	width: 100%;
+	height: auto;
+	zoom: -1;
+	position: relative;
+}
+
+.desktop_icon {
+	width: 76px;
+	height: 78px;
+	cursor: pointer;
+	margin-left: -1000px;
+	text-align: center;
+}
+
+.desktop_icon:hover {
+	background: url(../images/theme/blue/icon_over.png) no-repeat center center;
+}
+
+.desktop_icon span {
+	display: block;
+}
+
+.desktop_icon .icon {
+	width: 42px;
+	height: 42px;
+	margin: 5px auto;
+}
+
+.desktop_icon .icon img {
+	width: 45px;
+	height: 45px;
+}
+
+.desktop_icon .text {
+	display: inline-block;
+	width: auto;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+	background: url(../images/iconTextbg.png) no-repeat left center;
+	position: relative;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+.desktop_icon .right_cron {
+	width: 10px;
+	height: 22px;
+	position: absolute;
+	right: -10px;
+	top: 0;
+	background: url(../images/iconTextbg_right.png) left center no-repeat;
+}
+
+/*浮动工具条*/
+.nav_tab {
+	z-index: 1;
+	background: url(../images/theme/blue/navbg.png) no-repeat left top;
+	width: 215px;
+	height: 28px;
+	padding: 11px 6px 15px 56px;
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	margin-left: -135px;
+}
+
+.nav_tab_left {
+	width: 145px;
+	float: left;
+	height: 28px;
+}
+
+.nav_tab_left ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.nav_tab_left ul li {
+	cursor: pointer;
+	width: 25px;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+	text-align: center;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.nav_tab_left ul li:hover {
+	color: #576068;
+}
+
+.nav_tab_left ul li.over {
+	color: #576068;
+	background: url(../images/nav_icon.png) no-repeat 2px 4px;
+}
+
+.nav_tab_right {
+	width: 70px;
+	float: left;
+}
+
+.nav_tab_right a {
+	display: block;
+	width: 28px;
+	margin: 0px 1px;
+	height: 28px;
+	float: left;
+	background: url(../images/nav_icon.png) no-repeat;
+}
+
+.nav_tab_right a img {
+	width: 30px;
+	height: 28px;
+	border: none;
+}
+
+.nav_tab_right a.nav_tools {
+	background-position: 1px -31px;
+}
+
+.nav_tab_right a.nav_tools:hover {
+	background-position: -22px -31px;
+}
+
+.nav_tab_right a.nav_sharch {
+	background-position: -50px -31px;
+}
+
+.nav_tab_right a.nav_sharch:hover {
+	background-position: -75px -31px;
+}
+
+
+
+.appManagerPanel {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000000;
+	overflow: hidden;
+	background-color:#79706e;
+	
+	
+}
+
+.aMg_dock_container {
+	height: 60px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.aMg_dock_container .appButton {
+	height: 60px;
+	width: 70px;
+}
+
+.appButton {
+	display: inline;
+	cursor: pointer;
+	float: left;
+	color: white;
+	font-size: 12px;
+	position: relative;
+}
+
+.aMg_close {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	width: 90px;
+	height: 37px;
+	cursor: pointer;
+	background-image: url(../images/back_normal.png);
+	background-repeat: initial;
+}
+
+:LINK,:VISITED {
+	text-decoration: none;
+}
+
+a {
+	font: 12px/1.5 tahoma, helvetica, clean, sans-serif;
+	color: #45649E;
+}
+
+.aMg_line_x {
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0px;
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	font-size: 0;
+	height: 0;
+	width: 100%;
+}
+
+.folderItem {
+	width: 20%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+	-webkit-transition: -webkit-transform .8s linear;
+}
+
+.folderItem_turn {
+	-webkit-transform: rotateY(0deg);
+}
+
+.folder_bg1 {
+	background-image: url(../images/amg_1.png);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position-x: 100%;
+	background-position-y: 0%;
+	background-color: initial;
+}
+
+.folder_bg2 {
+	background-image: url(../images/amg_2.png);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position-x: 100%;
+	background-position-y: 0%;
+	background-color: initial;
+}
+
+.folder_bg3 {
+	background-image: url(../images/amg_3.png);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position-x: 100%;
+	background-position-y: 0%;
+	background-color: initial;
+}
+
+.folder_bg4 {
+	background-image: url(../images/amg_4.png);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position-x: 100%;
+	background-position-y: 0%;
+	background-color: initial;
+}
+
+.folder_bg5 {
+	background-image: url(../images/amg_5.png);
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position-x: 100%;
+	background-position-y: 0%;
+	background-color: initial;
+}
+
+.folder_bg {
+	width: 70px;
+	height: 100px;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+.folderOuter {
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.folderInner {
+	min-width: 180px;
+	margin: 10px 0;
+	position: relative;
+	z-index: 1;
+}
+
+.amg_folder_appbutton {
+	width: auto;
+	display: block;
+	float: none;
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+.appButton_appIcon {
+	overflow: hidden;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: relative;
+	padding-left: 10px;
+	float: left;
+}
+
+.appButton_appName {
+	color: white;
+	height: 20px;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+	overflow: hidden;
+	float: left;
+}
+
+.appButton_appName_inner {
+	width: 80px;
+	text-align: left;
+	padding-left: 10px;
+	float: left;
+	overflow: hidden;
+	margin: auto;
+	-webkit-user-select: none;
+	word-spacing: break-all;
+}
+
+.appButton_appName_inner_right {
+	display: none;
+}
+
+.appButton_delete {
+	display: none;
+	font-size: 0;
+	z-index: 10;
+	line-height: 1;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+	top: -6px;
+	right: -6px;
+}
+
+.aMg_line_y {
+	width: 3px;
+	height: 100%;
+	position: absolute;
+	left: -1px;
+	top: 0;
+	background-image: url(../images/line_y.png);
+	background-repeat-x: no-repeat;
+	background-repeat-y: repeat;
+	background-position: initial;
+	background-color: initial;
+}
+
+.appButton_appIconImg {
+	width: 26px;
+	height: 26px;
+	margin: 0;
+}
+-->
+
+
+
+
+
+
+
+
+<!-- //全局视图 -->
+	.aMg_folder_container {
+		overflow: hidden;
+		background: url(../images/amg_body.png);
+	}
+	.folderItem {
+		width: 20%;
+		height: 100%;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		transform-origin:center center;
+	}
+	.folderOuter {
+		height: 100%;
+		position: relative;
+		overflow: auto;
+	}
+	.folderInner {
+		min-width: 180px;
+		margin: 10px 0;
+		position: relative;
+		z-index: 1;
+	}
+	.appManagerPanel
+	.scrollBar {
+		right: 1px;
+	}
+	.scrollBar {
+		position: absolute;
+		top: 0;
+		width: 7px;
+		border-radius:6px;
+		background:url("${../images/scrollbar_bgy.png");
+		z-index: 10;
+	}
+	.amg_folder_appbutton {
+		width: auto;
+		display: block;
+		float: none;
+		height: 30px;
+		margin-bottom: 5px;
+	}
+	.appButton {
+		color: white;
+		font-size: 12px;
+		position: relative;
+	}
+	.amg_folder_appbutton .appButton_appIcon {
+		margin:2px 0 0 20px;
+		width:26px;
+		height:26px;
+		float:left;
+		display:inline;
+		background:none!important;
+	}
+	.appButton_appIcon {
+		overflow: hidden;
+		background-position: center center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		position: relative;
+	}
+	.appButton_appIconImg {
+		overflow: hidden;
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+	.amg_folder_appbutton .appButton_appName {
+		float: left;
+		text-align: left;
+		margin-top: 6px;
+		margin-left: 10px;
+		
+	}
+	.appButton_appName {
+		color: white;
+		height: 20px;
+		margin: 8px 0 0 0;
+		cursor: pointer;
+		overflow: hidden;
+	}
+	.amg_folder_appbutton .appButton_appName_inner {
+		width: 80px;
+		text-align: left;
+		padding-left: 5px;
+		float: left;
+	}
+	.appButton_appName_inner {
+		overflow: hidden;
+		margin: auto;
+		word-break:break-all;
+	}
+	.appButton_appName_inner_right {
+		display: none;
+	}
+
+<!-- //搜索提示 -->
+	.pagelet_search_bar {
+		left: 50%;
+		margin-left: -72px;
+		height: 33px;
+		width: 212px;
+		position: absolute;
+		z-index: 20;
+		background: no-repeat -140px -200px;
+	}
+	.pagelet_search_suggest {
+		left: 50%;
+		margin-left: -72px;
+		position: absolute;
+		width: 212px;
+		z-index: 10000;
+		background: 0;
+	}
+.searchBox{z-index:99;background:url(../images/sprite_main_png.png) no-repeat -140px -200px;width:202px;height:21px;padding:6px 5px;overflow:hidden;}
+.searchBox form{margin:0px;padding:0px;}
+.searchText{border:0px solid #666768;font-size:13px;width:200px;background:#666768;color:#FFF;height:1.4em;padding-top: 3px;}
+.searchBnt{border:0px solid #666768;width:21px;height:19px;background:url(../images/sprite_main_png.png) no-repeat -240px -158px; cursor:pointer;line-height:200px; text-indent:200px;}
+.searchBnt:hover{background:url(../images/sprite_main_png.png) no-repeat -320px -158px;}
+/*搜索提示框样式*/
+.searchPoint{z-index:99;width:212px;padding:0px 0px 10px;background:url(../images/pointbg1.png) no-repeat left bottom;}
+.searchPoint ul{margin:0px;padding:0px 2px; list-style:none;background:url(../images/pointbg2.png) repeat-y left;}
+.searchPoint ul li{cursor:pointer;padding-left:15px;font-size:12px;color:#FFF;line-height:25px;height:25px;padding-top:5px;}
+.searchPoint ul li:hover{background:url(../images/sprite_main_png.png) no-repeat -140px -240px;}
+
+.listInner {height : 25px;}
+
+
+
+<!-- // 不知道是什么样式 -->
+	.aMg_close:active {
+		background:url(../images/back_click.png);
+	}
+	.aMg_close:hover {
+		background:url(../images/back_hover.png);
+	}
+	
+	.dock_container .appButton:hover,
+	.dock_container,
+	.aMg_dock_container .appButton:hover {
+		background:url(../images/theme/blue/dock_over.png);
+	}
+	.aMg_dock_container .appButton {
+		width : 58px;
+		height: 58px;
+	}
+	.appButton:hover, 
+	.appButtonEditState .appButton, 
+	.appButtonEditState .addQuickLinkButton:hover {
+		background: url('../images/appbutton_mouseover_bg5.png') no-repeat 1px 0;
+	}
+	
+	
+/*图标单击弹出的添加按钮框*/
+.dialogue{width:330px;}
+.dialogueNavbox{background:url(../images/dialoguebgT.png) no-repeat left top;width:290px;padding:15px 15px 5px 25px;}
+.dialogueNavbox_Right{background:url(../images/dialoguebgT_Right.png) no-repeat left top;width:290px;padding:15px 15px 5px 25px;}
+.dialogueNavOpen{height:28px;}
+.dialogueNavOpen a{display:block;float:right;width:65px;height:24px;text-indent:25px;color:#FFF;font-size:12px;text-decoration:none; background:url(../images/open.png) no-repeat -80px 0px;line-height:24px;overflow:hidden;}
+.dialogueNavOpen a:hover{background:url(../images/open.png) no-repeat 0px 0px;}
+.dialogueNavList{width:290px;max-height:135px;overflow:auto;overflow-y:none;scrollBar-face-color:#2f2f2f;scrollBar-hightLight-color:#565656;scrollBar-3dLight-color:#383838;scrollBar-darkshadow-color:#333333;scrollBar-shadow-color:#222222;scrollBar-arrow-color:#888888;scrollBar-track-color:#383838;scrollBar-base-color:#000000;}
+.dialogueNavList ul,.dialogueNavList ul li a p{padding:0px;margin:0px;list-style:none;}
+.dialogueNavList ul li{float:left;width:58px;height:65px;padding:0px 5px;}
+.dialogueNavList ul li a{display:block;width:58px;padding-top:5px;font-size:12px;color:#FFF; text-decoration:none;}/*height:58px;*/
+.dialogueNavList ul li a:hover{background:url(../images/dialogueOver.png) no-repeat left top;}
+.dialogueNavList ul li a p{text-align:center;line-height:20px;}
+.dialogueNavList ul li a img{width:32px;height:32px;border:none;}
+.dialogueBot{background:url(../images/dialoguebgB.png) no-repeat left bottom;height:10px;overflow:hidden;width:330px;clear:both;}
+.dialogueBot_Right{background:url(../images/dialoguebgB_Right.png) no-repeat left bottom;height:10px;overflow:hidden;width:330px;clear:both;}
+
+.clear{clear:both;font-size:0px;height:0px;overflow:hidden;}

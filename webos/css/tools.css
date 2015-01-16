@@ -1,0 +1,62 @@
+/*校历*/
+.school_info{width:195px;position:absolute;z-index: 99;}
+.tigboxClose{position:absolute;width:22px;height:22px;margin-left:168px;margin-top:-3px;}
+.school_info:hover div.tigboxClose{background:url(/ui/images/Drag_close.png) no-repeat 0px 0px;}
+.tigboxClose a{display:block;width:22px;height:22px;}
+.tigboxClose a:hover{background:url(../images/Drag_close.png) no-repeat 0px -29px;}
+.tigtext{background:url(../images/schoolCale.png);width:163px;height:82px;overflow:hidden;padding:15px;padding-top:30px;font-size:14px;font-family:"Microsoft YaHei";color:#fff;line-height:24px;text-align:center;}
+.tigtext2{font-family:"Microsoft YaHei", Times, serif;padding:0px 5px;font-size:14px;color:#F00;}
+.tigschool{font-family:"Microsoft YaHei", Times, serif;padding:0px 5px;font-size:18px;font-align:right;word-spacing:50px;}
+
+/*应用中心*/
+.apply{margin:0 auto;}
+.appllytop,.applybottom{width:800px;margin:0px;height:19px; background:url(../../images/apply/top.png) no-repeat left top;}
+.applybottom{background:url(../../images/apply/bottom.png) no-repeat left bottom;}
+.applybox{padding:1px 20px; background:url(../../images/apply/bg.png) repeat-y left;}
+.ap-title{background:url(../../images/apply/titlebg.gif) repeat-x top;width:760px;height:48px;}
+.ap-title b{float:left;}
+.ap-title span{width: auto;padding-top:3px;padding-right:9px;float:right;display:block;}
+.ap-title span a{display: inline-block;float:left;height:42px; position: relative;}
+.ap-title span a.appMinimize{background:url(../../images/apply/lessen.png) no-repeat 0px 0px;width:28px;}
+.ap-title span a:hover.appMinimize{background-position:0px -45px;}
+.ap-title span a.appClose{background:url(../../images/apply/close.png) no-repeat 0px 0px;width:41px;}
+.ap-title span a:hover.appClose{background-position:0px -43px;}
+.app_winframe {
+	width: 760px;
+	height: 400px;
+	padding: 0;
+	overflow-x:hidden;
+}
+/*时钟*/
+.clock_css {
+	width: 145px;
+	height: 139px;
+	position: absolute;
+	padding-top: 5px;
+	top: 150px;
+	right: 15px;
+	z-index: 1
+}
+
+.clock_cssClose{position:absolute;width:22px;height:22px;margin-left:130px;margin-top:-6px;}
+.clock_css:hover div.clock_cssClose{background:url(../images/Drag_close.png) no-repeat 0px 0px;}
+.clock_cssClose a{display:block;width:22px;height:22px;}
+.clock_cssClose a:hover{background:url(../images/Drag_close.png) no-repeat 0px -29px;}
+
+ul{margin:0px;padding:0px;list-style:none;}
+
+/*可拖动的框*/
+.drag_box{width:262px; position: absolute; z-index: 99;}
+.drag_title{height:28px;overflow:hidden;padding:8px 15px 0px;width:232px; background:url(/ui/images/Drag_tit.png) no-repeat left top;}
+.drag_title h2{font-size:14px;font-weight:bold;color:#000;float:left;line-height:16px;margin:0px;padding:0px;}
+.drag_title a{display:block;float:right; background:url(/ui/images/Drag_close.png) no-repeat 0px 0px;width:21px;height:22px;}
+.drag_title a:hover{background-position:0px -29px;}
+.drag_centent{background:url(/ui/images/Drag_bg.png) repeat-y left;width:232px;padding:2px 15px;min-height:153px;}
+.drag_centent ul li{font-size:12px;line-height:24px;color:#666;height:24px;}
+.drag_centent ul li span{float:right;}
+.drag_centent ul li a{color:#333; text-decoration:none;}
+.drag_centent ul li a:hover{text-decoration:underline;}
+.drag_bottom{background:url(/ui/images/Drag_bottom.png) no-repeat left bottom;height:13px;overflow:hidden;}
+
+.tools_a{display:block;float:right;background:url(/ui/images/Drag_close.png) no-repeat 0px 0px;width:21px;height:22px;}
+.tools_a:hover{background-position:0px -29px;}
